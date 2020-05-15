@@ -20,11 +20,12 @@
   </div>
   <script type="text/javascript">
   $.ajax({
-    url:'https://api.openbrewerydb.org/breweries',
-    success:function(response,xhr,settings){
-      console.log(response)
+    url:'https://api.github.com',
+    complete: function(xhr){
+
     }
-  });
+    }
+    );
 
 
   </script>
